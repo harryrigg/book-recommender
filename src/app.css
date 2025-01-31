@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+	font-family: Forum;
+	src: url('fonts/Forum-Regular.ttf');
+	font-weight: 400;
+}
+
+body {
+	font-family: Forum;
+}
