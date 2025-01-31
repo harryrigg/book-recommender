@@ -72,7 +72,7 @@
 <div class="flex h-full flex-col items-center justify-center bg-zinc-100 md:gap-8">
 	<h1 class="py-8 text-center text-4xl md:py-0">AI Book Recommender</h1>
 	<div
-		class="flex min-h-0 w-full max-w-[700px] flex-1 flex-col gap-2 rounded-lg px-6 py-4 md:h-[500px] md:flex-initial md:p-4 md:shadow-[0px_0px_5px_rgb(0_0_0_/_0.1)]"
+		class="flex min-h-0 w-full max-w-[700px] flex-1 flex-col gap-2 rounded-lg px-6 pb-4 md:h-[500px] md:flex-initial md:p-4 md:shadow-[0px_0px_5px_rgb(0_0_0_/_0.1)]"
 	>
 		{#if recommendedBooks === null}
 			{#if books.length === 0}
