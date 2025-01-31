@@ -1,7 +1,7 @@
 import { openai } from '$lib/server/openai';
 import { bookRecommendationsSchema, type InputBook } from '$lib/types';
 import type { RequestHandler } from './$types';
-import { zodResponseFormat } from 'openai/helpers/zod.mjs';
+import { zodResponseFormat } from 'openai/helpers/zod';
 import { error, json } from '@sveltejs/kit';
 import { RateLimiter } from 'sveltekit-rate-limiter/server';
 
